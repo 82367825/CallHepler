@@ -42,11 +42,11 @@ public class CallHelper {
     }
     
     public void rejectCall(Context context) throws Exception {
-        mICallSchemeAccept.acceptCall(context);
+        mICallSchemeReject.rejectCall(context);   
     }
     
     public void acceptCall(Context context) throws Exception {
-        mICallSchemeReject.rejectCall(context);
+        mICallSchemeAccept.acceptCall(context);
     }
     
 }
